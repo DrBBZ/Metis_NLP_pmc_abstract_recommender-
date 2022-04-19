@@ -1,18 +1,16 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
+import streamlit as st
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    
+st.title("A Journal Recommendation System For Vegetarian/Plant-Based Diet")
+st.header("This system recommends top 5 PubMed Central journal articles that interests you")
+st.subheader("Enter topics that interests you:")
+st.selectbox("Condition", ['vegan', 'vegetarian', 'plant-based'], index=1)
+if st.button("Recommend Me:"):
+    st.write("The Top 5 Suggested Articles Are:")
+st.text("Disclaimer: \nThis system and its recommendations are not official medical advice. \nPlease use at your own risk.")
 
