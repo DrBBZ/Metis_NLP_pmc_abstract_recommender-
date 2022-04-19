@@ -1,7 +1,7 @@
 import streamlit as st
 
     
-st.title("A Journal Recommendation System For Vegetarian/Plant-Based Diet")
+st.title("A Journal Recommendation System For a Vegetarian/Plant-Based Diet")
 st.header("This system recommends top 5 PubMed Central journal articles that interests you")
 st.subheader("Enter topics that interests you:")
 st.selectbox("Condition", ['vegan', 'vegetarian', 'plant-based'], index=1)
