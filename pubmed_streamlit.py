@@ -1,8 +1,3 @@
-
-
-
-
-
 import streamlit as st
 
     
@@ -13,4 +8,3 @@ st.selectbox("Condition", ['vegan', 'vegetarian', 'plant-based'], index=1)
 if st.button("Recommend Me:"):
     st.write("The Top 5 Suggested Articles Are:")
 st.text("Disclaimer: \nThis system and its recommendations are not official medical advice. \nPlease use at your own risk.")
-
