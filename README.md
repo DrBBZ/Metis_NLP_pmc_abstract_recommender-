@@ -1,2 +1,2 @@
-# NLP-PMC-abstract-recommender
+# PMC-Journal-Recommendation-System
 TBA
